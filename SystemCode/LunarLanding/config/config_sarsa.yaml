@@ -1,0 +1,27 @@
+# Environment and agent
+ENV_ID: 'LunarLander-v2'
+ENV_SEED: 0
+AGENT: 'sarsa'
+
+# Data locations
+# NOTE: setting RECORD_DIR to an existing directory will overwrite!
+# NOTE: CHECKPOINT_DIR can be anything when CONTINUE is False
+RECORD_DIR: 'record/sarsa/'
+CHECKPOINT_DIR: ''
+
+# Run config
+EPISODES: 8000
+SAVE_EVERY: 100
+STATE_BINS: [5, 5, 5, 5, 5, 5, 2, 2]  # per state dimension
+STATE_BOUNDS: [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0],
+               [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]  # per state dimension
+VERBOSE: 1  # 0: nothing, 1: plots and saved videos, 2: every episode
+CONTINUE: False
+
+# Learning parameters
+# Format: start value, end value, # of episodes, decay factor
+# NOTE: linear slope between start and end, then exponential decay
+# NOTE: use 0 as # of episodes to do only exponential decay
+E_GREEDY: [1.0, 0.05, 1e5, 0.99]
+LEARNING_RATE: [0.2, 0.2, 0, 1]
+DISCOUNT_RATE: 0.97
