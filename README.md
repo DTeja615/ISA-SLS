@@ -36,7 +36,7 @@ Contact left landing leg
 
 Contact right landing leg
 
-## Summary
+# Summary
 
 To compare the performances of Lunarlander V2 in openAI with the following four reinforcement learning algorithms:
 
@@ -49,7 +49,7 @@ Double DQN Network
 SARSA
 
 
-## Team members:
+# Team members:
 
 Zhan Sheng
 
