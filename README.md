@@ -53,7 +53,7 @@ Evolutionary Algorithm / Genetic Algorithm
 
 Q-Learning
 
-Double DQN Network
+Dueling DQN Network
 
 SARSA
 
