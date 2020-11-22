@@ -2,7 +2,7 @@
 
 This LunarLander-v2 Solver is a project for SELF-LEARNING SYSTEMS in National University of Singapore.
 
-This is a project to use RL and EL to solve LunarLander-v2 problem in OpenAIGym.
+This is a project to use Reinforcement Learning and Evolutionary Algorithm to solve LunarLander-v2 problem in OpenAIGym.
 
 ## LunarLander_Problem
 
