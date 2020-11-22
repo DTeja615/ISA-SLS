@@ -4,6 +4,10 @@ This LunarLander-v2 Solver is a project for SELF-LEARNING SYSTEMS in National Un
 
 This is a project to use RL and EL to solve LunarLander-v2 problem in OpenAIGym.
 
+![image](https://github.com/Jingxuaw/ISA-SLS/blob/main/LunarLander_Problem.gif)
+
+![image](https://github.com/Jingxuaw/ISA-SLS/blob/main/LunarLander_after_trained.gif)
+
 ## Actions
 
 There are four discrete actions the lander can take:
