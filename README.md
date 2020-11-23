@@ -1,4 +1,4 @@
-# ISA-SLS-LunarLander-v2 Solver
+### ISA-SLS-LunarLander-v2 Solver
 
 This LunarLander-v2 Solver is a project for SELF-LEARNING SYSTEMS in National University of Singapore.
 
@@ -47,10 +47,10 @@ To compare the performances of Lunarlander V2 in openAI with the following four 
 
 # Team members:
 
-Zhan Sheng
+Zhan Sheng (A0215253N)
 
-Wu Jingxuan
+Wu Jingxuan (A0215262N)
 
-Lakshmi Subramanian
+Lakshmi Subramanian (A0215255L)
 
-Yalavarti Dharma Teja
+Yalavarti Dharma Teja (A0215457A)
