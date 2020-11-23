@@ -1,4 +1,4 @@
-### ISA-SLS-LunarLander-v2 Solver
+# ISA-SLS-LunarLander-v2 Solver
 
 This LunarLander-v2 Solver is a project for SELF-LEARNING SYSTEMS in National University of Singapore.
 
