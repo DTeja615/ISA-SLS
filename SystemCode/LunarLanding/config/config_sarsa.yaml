@@ -13,15 +13,16 @@ CHECKPOINT_DIR: ''
 EPISODES: 8000
 SAVE_EVERY: 100
 STATE_BINS: [5, 5, 5, 5, 5, 5, 2, 2]  # per state dimension
+
 STATE_BOUNDS: [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0],
                [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]  # per state dimension
+# for showing on the screen
 VERBOSE: 1  # 0: nothing, 1: plots and saved videos, 2: every episode
 CONTINUE: False
 
-# Learning parameters
-# Format: start value, end value, # of episodes, decay factor
-# NOTE: linear slope between start and end, then exponential decay
-# NOTE: use 0 as # of episodes to do only exponential decay
-E_GREEDY: [1.0, 0.05, 1e5, 0.99]
-LEARNING_RATE: [0.2, 0.2, 0, 1]
-DISCOUNT_RATE: 0.97
+E_GREEDY: [1.0, 0.05, 1e5, 0.99] #alpha_start, alpha_end, alpha_steps, alpha_decay
+
+# in this case, do only exponential decay
+LEARNING_RATE: [0.2, 0.2, 0, 1] #epsilon_start, epsilon_end, epsilon_steps, epsilon_decay
+
+DISCOUNT_RATE: 0.97 #gamma
